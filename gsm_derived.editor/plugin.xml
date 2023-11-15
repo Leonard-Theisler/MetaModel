@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated gsm_derived -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="application.presentation.Gsm_derivedModelWizardID"
+            name="%_UI_Gsm_derivedModelWizard_label"
+            class="application.presentation.Gsm_derivedModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Gsm_derivedModelFile.gif">
+         <description>%_UI_Gsm_derivedModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated gsm_derived -->
+      <editor
+            id="application.presentation.Gsm_derivedEditorID"
+            name="%_UI_Gsm_derivedEditor_label"
+            icon="icons/full/obj16/Gsm_derivedModelFile.gif"
+            extensions="gsm_derived"
+            class="application.presentation.Gsm_derivedEditor"
+            contributorClass="application.presentation.Gsm_derivedActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/gsm_derived/src-gen" creationIcons="false" editDirectory="/gsm_derived.edit/src-gen"
+    editorDirectory="/gsm_derived.editor/src-gen" modelPluginID="gsm_derived" modelName="Gsm_derived"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>gsm_derived.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Gsm_derived" disposableProviderFactory="true" ecorePackage="gsm_derived.ecore#/">
+    <genClasses ecoreClass="gsm_derived.ecore#//AssignType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//AssignType/mapping"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//CompositeApplicationType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//CompositeApplicationType/eventModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//CompositeApplicationType/component"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//CompositeApplicationType/appVersion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//CompositeApplicationType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//CompositeApplicationType/sienaVersion"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//ComponentType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//ComponentType/informationModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//ComponentType/lifecycleModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//ComponentType/dataAccessModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//ComponentType/flowModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//ComponentType/guardedStageModel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ComponentType/accessControlModel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ComponentType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ComponentType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//EventModelType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//EventModelType/event"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventModelType/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventModelType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventModelType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//EventType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventType/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//EventType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//ConditionType">
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ConditionType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ConditionType/expression"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ConditionType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ConditionType/language"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ConditionType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//DataAccessModelType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataAccessModelType/id"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//DataItemType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataItemType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataItemType/listElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataItemType/rootElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataItemType/schemaUri"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference gsm_derived.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference gsm_derived.ecore#//DocumentRoot/xSISchemaLocation"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//FlowModelType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//FlowModelType/flow"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FlowModelType/id"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//FlowType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//FlowType/variable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//FlowType/task"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//FlowType/flowWire"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FlowType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FlowType/serviceId"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//FlowWireType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FlowWireType/sourceId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FlowWireType/targetId"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//GuardedStageModelType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//GuardedStageModelType/stage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//GuardedStageModelType/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//GuardedStageModelType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//GuardedStageModelType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//InformationModelType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//InformationModelType/dataItem"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InformationModelType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InformationModelType/rootDataItemId"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//InputMappingType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//InputMappingType/source"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//InputMappingType/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InputMappingType/type"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//InputType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InputType/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InputType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InputType/rootElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InputType/schemaUri"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//InvokeType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//InvokeType/inputMapping"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//InvokeType/serviceDefinitionId"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//LifecycleModelType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//LifecycleModelType/lifecycle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//LifecycleModelType/id"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//LifecycleType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//LifecycleType/state"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//LifecycleType/transition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//LifecycleType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//LifecycleType/stateXPath"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//MappingType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//MappingType/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//MappingType/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//MappingType/source"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//MilestoneType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//MilestoneType/condition"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//MilestoneType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//MilestoneType/eventIds"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//MilestoneType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//MilestoneType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//OutputType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//OutputType/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//OutputType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//OutputType/rootElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//OutputType/schemaUri"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//ServiceAdapterType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ServiceAdapterType/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ServiceAdapterType/eventId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ServiceAdapterType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ServiceAdapterType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//SourceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SourceType/expression"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SourceType/refType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SourceType/sourceId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SourceType/xPath"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//DataFlowGuardType">
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/eventIds"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/expression"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/language"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//DataFlowGuardType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//StageType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/dataFlowGuard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/milestone"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/task"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/subStage"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//StageType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//StageType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//StageType/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/processFlowGuard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//StageType/faultLogger"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//StateType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//StateType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//StateType/initial"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//SubStageType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/dataFlowGuard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/milestone"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/subStage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/task"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SubStageType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SubStageType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//SubStageType/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/processFlowGuard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//SubStageType/faultLogger"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//TargetType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TargetType/refType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TargetType/targetId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TargetType/xPath"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//TaskType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//TaskType/assign"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TaskType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TaskType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//TransitionType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference gsm_derived.ecore#//TransitionType/assign"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TransitionType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TransitionType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TransitionType/serviceId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//TransitionType/targetStateIds"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//VariableType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//VariableType/id"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//ProcessFlowGuardType">
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ProcessFlowGuardType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ProcessFlowGuardType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ProcessFlowGuardType/name"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//ProcessFlowGuardType/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="gsm_derived.ecore#//FaultLoggerType">
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/eventIds"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/expression"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/id"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/language"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute gsm_derived.ecore#//FaultLoggerType/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
