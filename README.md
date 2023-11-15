@@ -1,1 +1,1 @@
-# MetaModel
+This repository is a part of my bachelor project. It contains the metamodel for the E-GSM editor as well as the code that was generated from it. It was necessary to have the metamodel on another repository because when it was stored on the same repository and the same branch as the rest of the project, it corrupted the files.
